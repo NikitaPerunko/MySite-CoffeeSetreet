@@ -1,0 +1,141 @@
+.main {
+
+    .menu {
+
+        .menu__container {
+            padding: 200px 100px;
+
+            .menu-head {
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 30px;
+                
+                    .menu-head-under-line {
+                        text-decoration: underline #FF902B 5px;
+                        text-underline-offset: 10px;
+                        font-size: 32px;
+                        color: black;
+                        font-weight: 600;
+                    }
+                }
+                .menu__box {
+
+                    .menu__list {
+                        display: flex;
+                        list-style-type: none;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        padding: 0 30px;
+                        gap: 10px;
+
+
+
+                        .menu__item {
+                            background-color: white ;
+                            padding: 30px 20px 0 20px;
+                            margin: 25px 0;
+                            width: 370px;
+                            height: 380px;
+                            border-radius: 12px;
+                            border: 10px solid rgba(255, 255, 255, 0.2);
+                            box-shadow: 1px 1px 20px black;
+
+                            .menu__item-box {
+
+
+                                .menu__item-image-box {
+                                    display: flex;
+                                    justify-content: center;
+
+                                    .menu__item-rating {
+                                        position: absolute;
+                                        margin-top: 10px;
+                                        margin-right: 220px;
+                                        display: flex;
+                                        align-items: center;
+                                        padding: 3px 10px;
+                                        background-color: white;
+                                        border: 5px solid rgba(0, 0, 0, 0.200);
+                                        border-radius: 50px;
+
+                                        .menu__item-rating-num {
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            color: #2F2105;
+                                        }
+                                        .menu__item-rating-star {
+
+                                        }
+                                    }
+                                    .menu__item-image {
+                                        border-radius: 10px;
+
+                                    }
+                                }
+                                .menu__item-sub-info {
+                                    padding-top: 10px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+
+
+                                    .menu__item-sub-info-text {
+                                        font-size: 24px;
+                                        color: #2F2105;
+                                        font-weight: 600;
+                                        margin-left: 5px;
+                                        text-wrap: wrap;
+                                        width: 200px;
+                                    }
+                                    .menu__item-sub-info-cost {
+                                        font-size: 24px;
+                                        color: #2F2105;
+                                        font-weight: 600;
+                                    }
+                                    .menu__item-sub-info-sub-text {
+                                        font-size: 15px;
+                                        color: grey;
+                                        margin-left: 5px;
+                                        width: 250px;
+                                    }
+                                    .menu__item-sub-info-svg {
+                                        width: 35px;
+                                        height: 35px;
+                                        margin-right: 5px;  
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }   
+        }   
+    }
+}
+@media (max-width: 1010px) {
+    .main {
+
+        .menu {
+            
+            .menu__container {
+                padding-top: 70px;
+
+                .menu__box {
+
+                    .menu__list {
+                        justify-content: center;
+                    }
+                }
+                .menu-head {
+                    text-align: center;
+                    
+                    .menu-head-under-line {
+                        text-wrap: nowrap;
+                    }
+                }
+            }
+        }
+    }
+    
+}

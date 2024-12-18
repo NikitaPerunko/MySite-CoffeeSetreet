@@ -1,0 +1,163 @@
+.main {
+
+    .offer {
+
+        .offer__container {
+            padding: 30px 40px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            flex-wrap: wrap;
+
+
+            .offer__top-text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                position: relative;
+                padding: 30px;
+                bottom: 340px;
+                right: 500px;
+
+
+                .offer__top-text-text {
+                    font-size: 32px;
+                    font-weight: 600;
+                
+                    .offer__top-text-line {
+                        text-decoration: underline #FF902B 5px;
+                        text-underline-offset: 10px;
+                        font-size: 32px;
+                        color: black;
+                        font-weight: 600;
+
+                    }
+                }
+            }
+
+            .offer__box {
+                background-image: url("/img/backgrounds/05.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 1268px;
+                height: 364px;
+                display: flex;
+                justify-content: center;
+                margin-top: -280px;
+                
+
+                .offer__list {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    list-style-type: none;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    margin-top: -10%;
+                    
+
+                    .offer__item {
+                        background-color: white ;
+                        padding: 30px 20px 0 20px;
+                        width: 370px;
+                        height: 380px;
+                        border-radius: 12px;
+                        border: 10px solid rgba(0, 0, 0, 0.200);
+
+                        .offer__item-box {
+                            
+
+                            .offer__item-image-box {
+                                display: flex;
+                                justify-content: center;
+
+                                .offer__item-rating {
+                                    position: absolute;
+                                    margin-top: 10px;
+                                    margin-right: 220px;
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 3px 10px;
+                                    background-color: white;
+                                    border: 5px solid rgba(0, 0, 0, 0.200);
+                                    border-radius: 50px;
+                                    
+                                    .offer__item-rating-num {
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        color: #2F2105;
+                                    }
+                                    .offer__item-rating-star {
+                                        
+                                    }
+                                }
+                                .offer__item-image {
+                                    border-radius: 10px;
+                                    
+                                }
+                            }
+                            .offer__item-sub-info {
+                                padding-top: 10px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                
+
+                                .offer__item-sub-info-text {
+                                    font-size: 24px;
+                                    color: #2F2105;
+                                    font-weight: 600;
+                                    margin-left: 5px;
+                                }
+                                .offer__item-sub-info-cost {
+                                    font-size: 24px;
+                                    color: #2F2105;
+                                    font-weight: 600;
+                                    margin-left: 100px;
+                                }
+                                .offer__item-sub-info-buttons {
+                                    width: 160px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-left: 10px;
+                                    margin-top: 6px;
+
+                                    .offer__item-sub-info-buttons-btn {
+                                        background: none;
+                                        border: 2px solid #FF902B;
+                                        border-radius: 10px;
+                                        width: 50px;
+                                        height: 30px;
+                                        cursor: pointer;
+                                        color: #FF902B;
+                                        font-weight: 700;
+                                    }
+                                }
+                                .offer__item-sub-info-svg {
+                                    width: 35px;
+                                    height: 35px;
+                                    margin-right: 5px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1287px) {
+    .main {
+
+        .offer {
+            
+            .offer__container {
+                display: none;
+            }
+        }
+    }
+    
+}

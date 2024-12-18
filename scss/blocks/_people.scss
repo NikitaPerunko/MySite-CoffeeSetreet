@@ -1,0 +1,97 @@
+.main {
+
+    .people {
+
+        .people__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            .people__text {
+                background-image: url("/img/backgrounds/03.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 70%;
+                height: 450px;
+                display: flex;
+                justify-content: center;
+                padding: 20px 20px 20px 100px;
+                flex-direction: column;
+                border-radius: 0 50px 50px 0;
+
+                .people__text-head {
+                    font-size: 32px;
+                    color: black;
+                    font-weight: 600;
+                }
+                .people__text-sub-head {
+                    font-size: 18px;
+                    color: grey;
+                    font-weight: 400;
+                }
+            }
+            .people__list-person {
+                list-style-type: none;
+                display: flex;
+                gap: 70px;
+                position: relative;
+                top: 50px;
+                right: 200px;
+                
+                
+                
+                .people__item-person {
+
+                    .item-person-img-box {
+                        width: 250px;
+                        
+                        .person-img-item {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .item-person-text-box {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 200px;
+                        height: 100px;
+                        padding: 7px;
+                        background-color: #FFCB7C;
+                        border-radius: 10px;
+                        border: 5px solid #FFD390;
+                        color: #2F2105;
+                        position: relative;
+                        bottom: 130px;
+                        left: 50px;
+                        
+                        
+
+                        .item-person-name {
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                        .item-person-comment {
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1285px) {
+    .main {
+
+        .people {
+
+            .people__container {
+                display: none;
+            }
+        }
+    }
+}

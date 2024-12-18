@@ -1,0 +1,235 @@
+.main {
+
+    .title {    
+        background-image: url("/img/backgrounds/01.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .title__container {
+            padding: 260px 120px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+
+            .left-side {
+                padding-bottom: 90px;
+
+                .left-side__text {
+
+                    .left-side__head-one {
+                        font-size: 48px;
+                        font-weight: 600;
+                        color: #2F2105;
+
+                        .left-side__head-one--orange {
+                            font-size: 48px;
+                            font-weight: 600;
+                            color: #FF902B;
+                        }
+
+                    }
+                    .left-side__head-two {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: grey;
+                    }
+                }
+                    .left-side__buttons {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 370px;
+                        margin-top: 20px;
+
+                        .left-side__order {
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: none;
+                            background-color: #2F2105;
+                            border-radius: 50px;
+                            padding: 10px 20px;
+                            gap: 4px;
+                            cursor: pointer;
+
+                            .left-side__order-text {
+                                color: white;
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                            .left-side__oreder--svg {
+                                background-color: #FF902B;
+                                padding: 5px;
+                                align-items: center;
+                                border-radius: 25px;
+                                width: 25px;
+                                height: 25px;
+                                
+                            }
+                        }
+                        .left-side-menu {
+                            width: 150px;
+                            height: 50px; 
+                            border: none;
+                            background: none;
+                            border-radius: 50px;
+                            padding: 10px 20px;
+                            gap: 4px;
+                            cursor: pointer;  
+                            color: #FF902B;          
+
+                            .left-side__menu-text {
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .right-side {
+                    width: 410px;
+                    height: 380px;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 90px;
+                    padding-bottom: 90px;
+
+
+                .right-side__img {
+                    background-image: url('/img/coffee/01.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 367px;
+                    height: 350px;
+                    position: absolute;
+                    z-index: 1;
+
+                    
+                }
+
+                        .right-side__text-one {
+                            position: relative;
+                            z-index: 2;
+                            font-size: 24px;
+                            font-weight: 600;
+                            background: white;
+                            width: 230px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50px;
+                            border: 7px solid rgba(0, 0, 0, 0.200);
+                            box-sizing: unset;
+                            color: #2F2105;
+                            align-self: flex-start;
+                            
+                        }
+                        .right-side__text-two {
+                            position: relative;
+                            z-index: 2;
+                            background: white;
+                            width: 120px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50px;
+                            border: 7px solid rgba(0, 0, 0, 0.200);
+                            box-sizing: unset;
+                            color: #2F2105;
+                            align-self: flex-end;
+                            
+
+                            .right-side__text-two-text {
+                                font-size: 24px;
+                                font-weight: 600;
+                            }
+
+                            .right-side__text-two-svg {
+                                margin-bottom: 3px;
+                            }
+                        }
+                        .right-side__text-three {
+                            position: relative;
+                            z-index: 2;
+                            font-size: 24px;
+                            font-weight: 600;
+                            background: white;
+                            width: 120px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50px;
+                            border: 7px solid rgba(0, 0, 0, 0.200);
+                            box-sizing: unset;
+                            color: #2F2105;
+                            align-self: flex-start;
+                            
+                        }
+                    }
+                }
+        }
+    }
+@media  (max-width: 900px) {
+    .main {
+
+        .title {
+
+            .title__container {
+                padding: 100px 120px;
+                justify-content: center;
+                
+
+                .left-side {
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    .left-side__buttons {
+                        display: flex;
+                        justify-content: center;
+                        max-width: 490px;
+                        margin-top: 20px;
+                    }
+                    .left-side__text {
+                    
+                        .left-side__head-one {
+                            font-size: 40px;
+
+                            .left-side__head-one--orange {
+                                font-size: 40px;
+                            }
+                        }
+                        .left-side__head-two {
+                            font-size: 14px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .main {
+
+        .title {
+
+            .title__container {
+
+                .right-side {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+    
